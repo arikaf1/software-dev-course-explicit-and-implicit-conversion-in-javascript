@@ -1,0 +1,32 @@
+ // Import the readline-sync module
+const readline = require("readline-sync");
+
+// Ask for user's name and greet them
+let userName = readline.question("What is your name? ");
+console.log("Welcome, " + userName + "! Let's test your knowledge.\n");
+
+// Question 1 (String)
+let answer1 = readline.question("1. What data type is 'Hello World'? ");
+ 
+// Question 2 (Number input)
+let answer2 = readline.question("2. What is 10 + 5? ");
+
+// Question 3 (Boolean)
+let answer3 = readline.question("3. What data type is true? ");
+
+// Question 4 (Type Conversion)
+let answer4 = readline.question("4. What will '5' + 2 return in JavaScript? ");
+
+// Question 5 (Falsy Values)
+let answer5 = readline.question("5. Is an empty string ('') truthy or falsy? ");
+
+// Print answers back to the user
+console.log("\n--- Your Answers ---");
+console.log("Name: " + userName);
+console.log("Q1 Answer: " + string);
+console.log("Q2 Answer: " + 15);
+console.log("Q3 Answer: " + boolean);
+console.log("Q4 Answer: " + "52");
+console.log("Q5 Answer: " + falsy);
+
+console.log("\nThanks for playing!");
